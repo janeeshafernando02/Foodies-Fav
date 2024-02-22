@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="521.0" prefWidth="825.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.foodiesfavgui.HelloController">
+   <children>
+      <ImageView fitHeight="157.0" fitWidth="157.0" layoutX="20.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cashier1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="157.0" fitWidth="165.0" layoutX="221.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cashier2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="157.0" fitWidth="189.0" layoutX="436.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cashier3.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="73.0" layoutY="174.0" prefHeight="19.0" prefWidth="63.0" text="Cashier 1">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="281.0" layoutY="174.0" prefHeight="20.0" prefWidth="63.0" text="Cashier 2">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="489.0" layoutY="175.0" text="Cashier 3">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="queue1lb1" layoutX="73.0" layoutY="220.0">
+         <font>
+            <Font name="Times New Roman Bold" size="13.0" />
+         </font></Label>
+      <Label fx:id="queue1lb2" layoutX="73.0" layoutY="259.0">
+         <font>
+            <Font name="Times New Roman Bold" size="13.0" />
+         </font></Label>
+      <Label fx:id="queue2lb1" layoutX="287.0" layoutY="220.0">
+         <font>
+            <Font name="Times New Roman Bold" size="13.0" />
+         </font></Label>
+      <Label fx:id="queue2lb2" layoutX="287.0" layoutY="259.0">
+         <font>
+            <Font name="Times New Roman Bold" size="13.0" />
+         </font></Label>
+      <Label fx:id="queue2lb3" layoutX="287.0" layoutY="296.0">
+         <font>
+            <Font name="Times New Roman Bold" size="13.0" />
+         </font></Label>
+      <Label fx:id="queue3lb1" layoutX="494.0" layoutY="220.0">
+         <font>
+            <Font name="Times New Roman Bold" size="13.0" />
+         </font></Label>
+      <Label fx:id="queue3lb2" layoutX="494.0" layoutY="259.0">
+         <font>
+            <Font name="Times New Roman Bold" size="13.0" />
+         </font></Label>
+      <Label fx:id="queue3lb3" layoutX="495.0" layoutY="296.0">
+         <font>
+            <Font name="Times New Roman Bold" size="13.0" />
+         </font></Label>
+      <Label fx:id="queue3lb4" layoutX="494.0" layoutY="329.0">
+         <font>
+            <Font name="Times New Roman Bold" size="13.0" />
+         </font></Label>
+      <Label fx:id="queue3lb5" layoutX="494.0" layoutY="366.0">
+         <font>
+            <Font name="Times New Roman Bold" size="13.0" />
+         </font></Label>
+      <Label layoutX="43.0" layoutY="355.0" prefHeight="28.0" prefWidth="99.0" text="Waiting Queue">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="searchbtn" layoutX="632.0" layoutY="171.0" mnemonicParsing="false" onAction="#searchCustomer" prefHeight="45.0" prefWidth="157.0" style="-fx-background-color: #87CEFA;" text="Search Customer Details">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="633.0" layoutY="236.0" mnemonicParsing="false" onAction="#viewQueueIncome" prefHeight="45.0" prefWidth="157.0" style="-fx-background-color: #FF835D;" text="View Queue Income">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="633.0" layoutY="296.0" mnemonicParsing="false" onAction="#viewStockDetails" prefHeight="45.0" prefWidth="157.0" style="-fx-background-color: #6DD826;" text="View Stock Details">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="105.0" fitWidth="165.0" layoutX="629.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@burgers.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="157.0" fitWidth="157.0" layoutX="7.0" layoutY="380.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@waiting.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="waitinglb1" layoutX="207.0" layoutY="447.0" prefHeight="19.0" prefWidth="63.0">
+         <font>
+            <Font name="Times New Roman Bold" size="13.0" />
+         </font></Label>
+      <Label fx:id="waitinglb2" layoutX="293.0" layoutY="447.0" prefHeight="19.0" prefWidth="63.0">
+         <font>
+            <Font name="Times New Roman Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="waitinglb3" layoutX="378.0" layoutY="447.0" prefHeight="19.0" prefWidth="63.0">
+         <font>
+            <Font name="Times New Roman Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="waitinglb4" layoutX="457.0" layoutY="448.0" prefHeight="17.0" prefWidth="63.0">
+         <font>
+            <Font name="Times New Roman Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="waitinglb5" layoutX="537.0" layoutY="447.0" prefHeight="19.0" prefWidth="63.0">
+         <font>
+            <Font name="Times New Roman Bold" size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="quitbtn" layoutX="633.0" layoutY="357.0" mnemonicParsing="false" onAction="#quitSearch" prefHeight="45.0" prefWidth="157.0" style="-fx-background-color: #FFC90E;" text="Quit">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+
+   </children>
+</AnchorPane>

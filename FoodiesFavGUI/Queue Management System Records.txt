@@ -1,0 +1,11 @@
+Saved at 17-07-2023 10:14:20
+Total Number of Customers - 2
+Total No of Served Customers - 0
+Total No of Unserved Customers - 0
+Total No of Customers in the waiting queue - 0
+Remaining burgers in the stock - 50
+No of burgers added to the stock - 0
+Income of Queue 1 - Rs.0
+Income of Queue 2 - Rs.0
+Income of Queue 3 - Rs.0
+Total income - Rs.0
